@@ -21,10 +21,10 @@ public class NumberGuessing {
 			break;
 			}
 			else if(number>guess && i!=trails-1) {
-				System.out.println("The number is  too low "+guess);
+				System.out.println("Sorry ,Too low ");
 			}
 			else if(number<guess && i!=trails-1) {
-				System.out.println("The number is too high " + guess);
+				System.out.println("Sorry, Too high ");
 			}
 			
 		}
